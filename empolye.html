@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employe deatils</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+   <center>
+    <form>
+        <table class="main-table">
+            <h2 style="color: white; font-size: 36px;">Empolyee deatils</h2>
+            <tr class="sub-tble">
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name1">
+                </td>
+            </tr>
+            <tr class="sub-tble">
+                <td>
+                    <label for="std">Empolyee Role:</label>
+                </td>
+                <td class="i1">
+                    <select name="" id="role2">
+                        <option value="Accountant">Accountant</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Cashier">Cashier</option>
+                        <option value="Receptionist">Receptionist</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="sub-tble">
+                <td><label for="ss">Empolyee salrary :</label></td>
+                <td>
+                    <input type="number" id="s2">
+                </td>
+            </tr>
+            <tr class="sub-tble">
+                <td colspan="2"><button type="button" onclick="salary()" class="btn-one">Employee deatil</button></td>
+            </tr>
+        </table>
+        <div id="role"></div>
+    </form>
+    
+   </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
